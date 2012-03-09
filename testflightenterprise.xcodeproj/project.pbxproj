@@ -38,21 +38,21 @@
 		40D488CE150A64140054E667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40D488D0150A64140054E667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40D488D2150A64140054E667 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		40D488D6150A64140054E667 /* testflightenterprise-Info.plist */ = {isa = PBXFileReference; path = "testflightenterprise-Info.plist"; sourceTree = "<group>"; };
+		40D488D6150A64140054E667 /* testflightenterprise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testflightenterprise-Info.plist"; sourceTree = "<group>"; };
 		40D488D8150A64140054E667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40D488DA150A64140054E667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40D488DC150A64140054E667 /* testflightenterprise-Prefix.pch */ = {isa = PBXFileReference; path = "testflightenterprise-Prefix.pch"; sourceTree = "<group>"; };
-		40D488DD150A64140054E667 /* FLAppDelegate.h */ = {isa = PBXFileReference; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		40D488DC150A64140054E667 /* testflightenterprise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testflightenterprise-Prefix.pch"; sourceTree = "<group>"; };
+		40D488DD150A64140054E667 /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppDelegate.h; sourceTree = "<group>"; };
 		40D488DE150A64140054E667 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
-		40D488E0150A64140054E667 /* FLViewController.h */ = {isa = PBXFileReference; path = FLViewController.h; sourceTree = "<group>"; };
+		40D488E0150A64140054E667 /* FLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLViewController.h; sourceTree = "<group>"; };
 		40D488E1150A64140054E667 /* FLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLViewController.m; sourceTree = "<group>"; };
 		40D488E4150A64140054E667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLViewController_iPhone.xib; sourceTree = "<group>"; };
 		40D488E7150A64140054E667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLViewController_iPad.xib; sourceTree = "<group>"; };
 		40D488EE150A64140054E667 /* testflightenterpriseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testflightenterpriseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D488EF150A64140054E667 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		40D488F7150A64140054E667 /* testflightenterpriseTests-Info.plist */ = {isa = PBXFileReference; path = "testflightenterpriseTests-Info.plist"; sourceTree = "<group>"; };
+		40D488F7150A64140054E667 /* testflightenterpriseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testflightenterpriseTests-Info.plist"; sourceTree = "<group>"; };
 		40D488F9150A64140054E667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40D488FB150A64150054E667 /* testflightenterpriseTests.h */ = {isa = PBXFileReference; path = testflightenterpriseTests.h; sourceTree = "<group>"; };
+		40D488FB150A64150054E667 /* testflightenterpriseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testflightenterpriseTests.h; sourceTree = "<group>"; };
 		40D488FC150A64150054E667 /* testflightenterpriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testflightenterpriseTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -341,7 +341,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -359,7 +359,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

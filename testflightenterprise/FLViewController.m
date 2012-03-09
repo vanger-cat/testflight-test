@@ -21,7 +21,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UILabel *label = [[UILabel alloc] initWithFrame:self.view.frame];
+    label.textAlignment = UITextAlignmentCenter;
+    label.lineBreakMode = UILineBreakModeWordWrap;
+    label.numberOfLines = 0;
+    NSString *deviceName = [[UIDevice currentDevice] name];
+    NSString *message = [NSString stringWithFormat:@"Hello, owner of '%@'! Application works on your device :)", deviceName];
+    [label setText:message];
+	[self.view addSubview:label];
 }
 
 - (void)viewDidUnload
